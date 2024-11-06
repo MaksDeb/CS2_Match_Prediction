@@ -6,7 +6,7 @@ import warnings
 
 
 @step
-def getdatainfo(df):
+def getdatainfo(df: pd.DataFrame):
     df.info()
     class_freq = (df.groupby('team1_win').size())
     print(type(class_freq))
@@ -15,7 +15,7 @@ def getdatainfo(df):
 
 
 @step
-def getdistributionplot(df):
+def getdistributionplot(df: pd.DataFrame):
     warnings.filterwarnings('ignore')
     plt.hist(df['team1_win'])
     plt.xlabel('Team1 result')

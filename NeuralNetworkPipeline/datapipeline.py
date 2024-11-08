@@ -7,5 +7,3 @@ def datapipeline():
     df = dataloader.load_dataset()
     datainfo.getdatainfo(df)
     datainfo.getdistributionplot(df)
-
-

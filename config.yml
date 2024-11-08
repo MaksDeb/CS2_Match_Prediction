@@ -1,0 +1,5 @@
+steps:
+  dropcolumns:
+    parameters:
+      column1: 'team1'
+      column2: 'team2'

@@ -6,13 +6,17 @@ from uuid import UUID
 import pandas as pd
 
 
-@pipeline
+@pipeline(enable_cache=False)
 def dataengineeringpipeline():
     client = Client()
 
     latest_run = client.get_pipeline('datapipeline').runs[-1]
     df_artifact = latest_run.steps['load_dataset'].output
-
     df = client.get_artifact_version(name_id_or_prefix=df_artifact.name)
 
-    dataengineering.dropcolumns(df=df, column1='team1',column2='team2')
+    df1 = dataengineering.dropcolumns(df=df)
+    df2 = dataengineering.decodemapcolumn(df=df1)
+    df3 = dataengineering.changewinratetofloat(df=df2)
+    df4 = dataengineering.fillemptyrows(df=df3)
+    df5 = dataengineering.droprating1_0_stats(df=df4)
+    df_final = dataengineering.calculateavgstat(df=df5)

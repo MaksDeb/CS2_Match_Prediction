@@ -7,5 +7,5 @@ def load_dataset():
     path = 'Data/CS2_HLTV_MATCH_DATA2.csv'
     df = pd.read_csv(path, sep=';', parse_dates=False)
     print(df.shape)
-    df.head(10)
+    print(df.head())
     return df

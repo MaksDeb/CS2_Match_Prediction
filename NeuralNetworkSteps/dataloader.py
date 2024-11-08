@@ -1,7 +1,5 @@
 import pandas as pd
 from zenml import step
-import matplotlib.pyplot as plt
-import warnings
 
 
 @step

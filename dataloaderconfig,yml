@@ -1,0 +1,8 @@
+enable_cache: False
+
+parameters:
+  path: 'Data/CS2_HLTV_MATCH_DATA2.csv'
+
+steps:
+  load_dataset:
+      enable_cache: False

@@ -5,7 +5,7 @@ from typing import Tuple
 
 
 @step
-def traintestsplit(df: pd.DataFrame, train_sample=842, test_sample=360, random_state=42) -> Tuple[pd.DataFrame,
+def traintestsplit(df: pd.DataFrame, train_sample: int, test_sample: int, random_state: int) -> Tuple[pd.DataFrame,
                                                                                                   pd.DataFrame,
                                                                                                   pd.Series, pd.Series]:
     X = df.drop('team1_win', axis=1)

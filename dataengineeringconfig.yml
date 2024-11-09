@@ -1,0 +1,14 @@
+enable_cache: False
+
+parameters:
+  column1: 'team1'
+  column2: 'team2'
+  column3: 'Unnamed: 152'
+  column4: 'matchID'
+  columnmap: 'map'
+
+steps:
+  dropcolumns:
+    enable_cache: False
+  decodemapcolumn:
+    enable_cache: False

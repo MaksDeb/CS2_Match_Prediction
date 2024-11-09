@@ -4,16 +4,16 @@ from collections import defaultdict
 
 
 @step(enable_cache=False)
-def dropcolumns(df: pd.DataFrame, column1='team1', column2='team2',
-                column3='Unnamed: 152', column4='matchID') -> pd.DataFrame:
+def dropcolumns(df: pd.DataFrame, column1: str, column2: str,
+                column3: str, column4: str) -> pd.DataFrame:
     df = df.drop([column1, column2, column3, column4], axis=1)
     print(f"Artifact from dropcolumns step: {df}")
     return df
 
 
 @step(enable_cache=False)
-def decodemapcolumn(df: pd.DataFrame, column='map') -> pd.DataFrame:
-    df = df.drop([column], axis=1)
+def decodemapcolumn(df: pd.DataFrame, column: str) -> pd.DataFrame:
+    df[column] = df[column].astype('category').cat.codes
     print(f"Artifact from dropcolumns step: {df}")
     return df
 

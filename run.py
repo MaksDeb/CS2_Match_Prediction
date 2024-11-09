@@ -1,6 +1,7 @@
-from NeuralNetworkPipeline import datapipeline, dataengineeringpipeline, splittinddatapipeline
+from NeuralNetworkPipeline import datapipeline, dataengineeringpipeline, splittinddatapipeline, trainandpredictpipeline
 
 
 dataloader = datapipeline.datapipeline()
 dataengineeringpipeline_instance = dataengineeringpipeline.dataengineeringpipeline()
 splittingdatapipeline_instance = splittinddatapipeline.splittingdatapipeline()
+trainandpredictpipeline_instace = trainandpredictpipeline.trainandpredictpipeline()

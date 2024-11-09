@@ -5,3 +5,6 @@ tensorflow == 2.16.1
 zenml[server] == 0.68.1
 matplotlib == 3.9.2
 pyarrow == 18.0.0
+pydot == 3.0.2
+graphviz == 0.20.3
+plot_model == 0.20

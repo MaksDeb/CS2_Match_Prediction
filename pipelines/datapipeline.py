@@ -1,5 +1,5 @@
 from zenml import pipeline
-from NeuralNetworkSteps import dataloader, datainfo
+from steps import dataloader, datainfo
 
 
 @pipeline(enable_cache=False)

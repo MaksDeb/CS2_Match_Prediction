@@ -1,16 +1,12 @@
 from zenml import pipeline
 from zenml.client import Client
-from NeuralNetworkSteps import trainandpredictnn
+from steps import trainandpredictnn
 import pandas as pd
 
 
 @pipeline(enable_cache=False)
 def trainandpredictpipeline():
     client = Client()
-
-    latest_run = client.get_pipeline('splittingdatapipeline').runs[-1]
-    print(latest_run.steps)
-    df_artifact = latest_run.steps['traintestsplit'].outputs
 
     X_train = client.get_artifact_version(name_id_or_prefix='splittingdatapipeline::traintestsplit::output_0')
     X_test = client.get_artifact_version(name_id_or_prefix='splittingdatapipeline::traintestsplit::output_1')

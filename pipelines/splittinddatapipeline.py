@@ -1,6 +1,6 @@
 from zenml import pipeline
 from zenml.client import Client
-from NeuralNetworkSteps import splittingdata
+from steps import splittingdata
 import pandas as pd
 
 

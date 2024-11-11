@@ -4,6 +4,7 @@ parameters:
   train_sample: 842
   test_sample: 360
   random_state: 42
+  columntodrop: 'team1_win'
 
 steps:
   traintestsplit:

@@ -11,6 +11,6 @@ def masterpipeline():
         config_path='dataengineeringconfig.yml')()
     splittingdatapipeline_instance = splittinddatapipeline.splittingdatapipeline.with_options(
         config_path='splittingdataconfig.yml')()
-    trainandpredictpipeline_instace = trainandpredictpipelineneuralnetwork.train_neuralnetwork_pipeline()
+    trainandpredictpipeline_instace = trainpipelineneuralnetwork.train_neuralnetwork_pipeline()
     modelevaluationpipeline_instance = neuralnetwork_modelevaluationpipeline.neuralnetwork_modelevaluationpipeline()
 

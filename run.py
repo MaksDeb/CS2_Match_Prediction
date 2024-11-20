@@ -1,5 +1,6 @@
 from pipelines import datapipeline, dataengineeringpipeline, splittinddatapipeline, trainpipelineneuralnetwork
 from pipelines import neuralnetwork_modelevaluationpipeline, trainpipelinerandomforest, randomforest_modelevaluationpipeline
+from pipelines import trainpipelineextratree
 
 # Loading dataset
 dataloader = datapipeline.datapipeline.with_options(
@@ -12,6 +13,11 @@ dataengineeringpipeline_instance = dataengineeringpipeline.dataengineeringpipeli
 # Splitting dataset into X and y and train-test sets
 splittingdatapipeline_instance = splittinddatapipeline.splittingdatapipeline.with_options(
     config_path='splittingdataconfig.yml')()
+
+# Test
+trainandpredictpipeline_et_instace = trainpipelineextratree.train_extra_tree_pipeline.with_options(
+    config_path='extratreeconfig.yml'
+)()
 
 # Training and evaluating - Neural Network
 trainandpredictpipeline_nn_instace = trainpipelineneuralnetwork.train_neuralnetwork_pipeline()

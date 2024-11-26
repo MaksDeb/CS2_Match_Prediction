@@ -1,0 +1,9 @@
+enable_cache: False
+
+parameters:
+  n_estimators: 50
+  criterion: 'gini'
+
+steps:
+  train_extra_tree:
+    enable_cache: False

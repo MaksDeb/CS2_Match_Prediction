@@ -9,6 +9,6 @@ def neuralnetwork_modelevaluationpipeline():
 
     X_test = client.get_artifact_version(name_id_or_prefix='splittingdatapipeline::traintestsplit::output_1')
     y_test = client.get_artifact_version(name_id_or_prefix='splittingdatapipeline::traintestsplit::output_3')
-    model = client.get_artifact_version(name_id_or_prefix='trainandpredictpipeline::trainmodel::output')
+    model = client.get_artifact_version(name_id_or_prefix='train_neuralnetwork_pipeline::trainmodel::output')
 
     evaluateneuralnetwork.evaluate_neuralnetwork(model=model, X_test=X_test, y_test=y_test)

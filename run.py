@@ -1,6 +1,6 @@
 from pipelines import datapipeline, dataengineeringpipeline, splittinddatapipeline, trainpipelineneuralnetwork
 from pipelines import neuralnetwork_modelevaluationpipeline, trainpipelinerandomforest, randomforest_modelevaluationpipeline
-from pipelines import trainpipelineextratree, extra_tree_modelevaluationpipeline
+from pipelines import trainpipelineextratree, extra_tree_modelevaluationpipeline, ensemblemodelpipeline
 
 # Loading dataset
 dataloader = datapipeline.datapipeline.with_options(
@@ -29,3 +29,6 @@ trainandpredictpipeline_rf_instace = trainpipelinerandomforest.train_randomfores
     config_path='randomforestconfig.yml'
 )()
 modelevaluationpipeline_rf_instance = randomforest_modelevaluationpipeline.randomforest_modelevaluationpipeline()
+
+# Ensembled models
+enesembled_models_instance = ensemblemodelpipeline.ensemblemodel_pipeline()

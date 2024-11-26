@@ -22,6 +22,10 @@ def evaluate_neuralnetwork(model: Sequential, X_test: pd.DataFrame, y_test: pd.S
     print("\nConfusion Matrix:")
     print(confusion_matrix(y_test, y_pred))
 
+    #print('Model prediciton')
+    #print(y_test.iloc[0])
+    #print(y_pred_probs[0])
+
     conf_matrix = confusion_matrix(y_test, y_pred)
     plt.figure(figsize=(10, 8))
     sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')

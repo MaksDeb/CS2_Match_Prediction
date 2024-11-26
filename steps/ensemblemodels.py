@@ -11,10 +11,12 @@ import pandas as pd
 
 @step(enable_cache=False)
 def ensemble_models(model1: Sequential, model2: RandomForestClassifier, model3: ExtraTreesClassifier,
-                    X_test: pd.DataFrame, y_test: pd.Series):
+                    X_test: pd.DataFrame, y_test: pd.Series, X: pd.DataFrame, y: pd.Series):
 
     model1_wrapped = KerasClassifier(model=model1)
     model1_wrapped.fit(X_test, y_test)
+    #model2.fit(X_test, y_test)
+    #model3.fit(X_test, y_test)
 
     ensemble_model = VotingClassifier(
         estimators=[
@@ -24,17 +26,23 @@ def ensemble_models(model1: Sequential, model2: RandomForestClassifier, model3: 
         ],
         voting='hard'
     )
+
     ensemble_model.fit(X_test, y_test)
+    y_pred = ensemble_model.predict(X)
 
-    y_pred = ensemble_model.predict(X_test)
+    accuracy = accuracy_score(y, y_pred)
+    #print(f"Dokładność zestawu klasyfikatorów: {accuracy}")
 
-    accuracy = accuracy_score(y_test, y_pred)
-    print(f"Dokładność zestawu klasyfikatorów: {accuracy}")
+    #correct_predictions = np.sum(y == y_pred)
+    #total_predictions = len(y)
+    #accuracy = correct_predictions / total_predictions
 
-    print(f"y_test: {y_test[:10]}")
-    print(f"y_pred: {y_pred[:10]}")
+    print(f"Accuracy: {accuracy}")
 
-    print("Pierwsze 10 predykcji (y_pred):", y_pred[:10])
-    print("Pierwsze 10 wartości rzeczywiste (y_test):", y_test.head(10).tolist())
+    #print(f"y_test: {y_test[:10]}")
+    #print(f"y_pred: {y_pred[:10]}")
+
+    #print("Pierwsze 10 predykcji (y_pred):", y_pred[:10])
+    #print("Pierwsze 10 wartości rzeczywiste (y_test):", y_test.head(10).tolist())
 
 

@@ -31,10 +31,10 @@ def ensemble_models(model1: Sequential, model2: RandomForestClassifier, model3: 
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Dokładność zestawu klasyfikatorów: {accuracy}")
 
-    print(f"Model 1 (Keras): {model1_wrapped.score(X_test, y_test)}")
-    print(f"Model 2 (Random Forest): {model2.score(X_test, y_test)}")
-    print(f"Model 3 (Extra Trees): {model3.score(X_test, y_test)}")
-
     print(f"y_test: {y_test[:10]}")
     print(f"y_pred: {y_pred[:10]}")
+
+    print("Pierwsze 10 predykcji (y_pred):", y_pred[:10])
+    print("Pierwsze 10 wartości rzeczywiste (y_test):", y_test.head(10).tolist())
+
 

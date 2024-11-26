@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6676a4b9-7cd3-40cf-9e78-f5ac77ef5d5b" name="Default Changelist" comment="Added ensembled models pipeline">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataPlots/extratree_confusionmatrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extratreeconfig.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pipelines/extra_tree_modelevaluationpipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pipelines/trainpipelineextratree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steps/evaluateextratree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steps/trainandpredictextratree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataPlots/extratree_confusionmatrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/DataPlots/extratree_confusionmatrix.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataPlots/neuralnetwork_confusionmatrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/DataPlots/neuralnetwork_confusionmatrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipelines/neuralnetwork_modelevaluationpipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipelines/neuralnetwork_modelevaluationpipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/steps/ensemblemodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/ensemblemodels.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,11 +81,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -107,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731267119011</updated>
       <workItem from="1732630303787" duration="2809000" />
+      <workItem from="1732633153125" duration="1022000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,237 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"6676a4b9-7cd3-40cf-9e78-f5ac77ef5d5b\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/DataPlots/extratree_confusionmatrix.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/DataPlots/extratree_confusionmatrix.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/DataPlots/neuralnetwork_confusionmatrix.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/DataPlots/neuralnetwork_confusionmatrix.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/steps/ensemblemodels.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/steps/ensemblemodels.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileEditorManager\">\r\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/run.py\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"442\">\r\n              <caret line=\"34\" selection-start-line=\"34\" selection-end-line=\"34\" />\r\n              <folding>\r\n                <element signature=\"e#0#110#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"true\">\r\n        <entry file=\"file://$PROJECT_DIR$/steps/ensemblemodels.py\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"544\">\r\n              <caret line=\"32\" column=\"31\" lean-forward=\"true\" selection-start-line=\"32\" selection-start-column=\"31\" selection-end-line=\"32\" selection-end-column=\"31\" />\r\n              <folding>\r\n                <element signature=\"e#0#22#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"306\">\r\n              <caret line=\"18\" column=\"73\" selection-start-line=\"18\" selection-start-column=\"73\" selection-end-line=\"18\" selection-end-column=\"73\" />\r\n              <folding>\r\n                <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/steps/splittingdata.py\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"136\">\r\n              <caret line=\"8\" column=\"37\" lean-forward=\"true\" selection-start-line=\"8\" selection-start-column=\"37\" selection-end-line=\"8\" selection-end-column=\"37\" />\r\n              <folding>\r\n                <element signature=\"e#0#19#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/pipelines/trainpipelineextratree.py\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"170\">\r\n              <caret line=\"12\" column=\"47\" selection-start-line=\"12\" selection-start-column=\"47\" selection-end-line=\"12\" selection-end-column=\"47\" />\r\n              <folding>\r\n                <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/steps/evaluateextratree.py\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"391\">\r\n              <caret line=\"29\" selection-start-line=\"29\" selection-end-line=\"29\" />\r\n              <folding>\r\n                <element signature=\"e#0#22#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/steps/trainandpredictextratree.py\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"85\">\r\n              <caret line=\"8\" column=\"61\" selection-start-line=\"8\" selection-start-column=\"61\" selection-end-line=\"8\" selection-end-column=\"61\" />\r\n              <folding>\r\n                <element signature=\"e#0#19#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/pipelines/extra_tree_modelevaluationpipeline.py\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"68\">\r\n              <caret line=\"6\" column=\"40\" selection-start-line=\"6\" selection-start-column=\"40\" selection-end-line=\"6\" selection-end-column=\"40\" />\r\n              <folding>\r\n                <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n    </leaf>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"IdeDocumentHistory\">\r\n    <option name=\"CHANGED_PATHS\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/extratreeconfig.yml\" />\r\n        <option value=\"$PROJECT_DIR$/pipelines/trainpipelineextratree.py\" />\r\n        <option value=\"$PROJECT_DIR$/steps/trainandpredictextratree.py\" />\r\n        <option value=\"$PROJECT_DIR$/steps/evaluaterandomforest.py\" />\r\n        <option value=\"$PROJECT_DIR$/pipelines/neuralnetwork_modelevaluationpipeline.py\" />\r\n        <option value=\"$PROJECT_DIR$/pipelines/extra_tree_modelevaluationpipeline.py\" />\r\n        <option value=\"$PROJECT_DIR$/steps/evaluateextratree.py\" />\r\n        <option value=\"$PROJECT_DIR$/run.py\" />\r\n        <option value=\"$PROJECT_DIR$/steps/splittingdata.py\" />\r\n        <option value=\"$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py\" />\r\n        <option value=\"$PROJECT_DIR$/steps/ensemblemodels.py\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\r\n    <option name=\"x\" value=\"955\" />\r\n    <option name=\"width\" value=\"974\" />\r\n    <option name=\"height\" value=\"1047\" />\r\n  </component>\r\n  <component name=\"ProjectView\">\r\n    <navigator proportions=\"\" version=\"1\">\r\n      <foldersAlwaysOnTop value=\"true\" />\r\n    </navigator>\r\n    <panes>\r\n      <pane id=\"Scope\" />\r\n      <pane id=\"ProjectPane\">\r\n        <subPane>\r\n          <expand>\r\n            <path>\r\n              <item name=\"CS2_Match_Prediction\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"CS2_Match_Prediction\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"CS2_Match_Prediction\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"CS2_Match_Prediction\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"Data\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"CS2_Match_Prediction\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"CS2_Match_Prediction\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"DataPlots\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"CS2_Match_Prediction\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"CS2_Match_Prediction\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"pipelines\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"CS2_Match_Prediction\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"CS2_Match_Prediction\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"steps\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n          </expand>\r\n          <select />\r\n        </subPane>\r\n      </pane>\r\n    </panes>\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"ruleStates\">\r\n      <list>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\r\n        </RuleState>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\r\n        </RuleState>\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"6676a4b9-7cd3-40cf-9e78-f5ac77ef5d5b\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1731267119011</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1731267119011</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"ToolWindowManager\">\r\n    <frame x=\"-8\" y=\"-8\" width=\"1936\" height=\"1056\" extended-state=\"6\" />\r\n    <layout>\r\n      <window_info content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.24973656\" />\r\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\r\n      <window_info id=\"Favorites\" order=\"2\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\r\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\r\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" />\r\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\r\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\r\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"7\" weight=\"0.3033586\" />\r\n      <window_info active=\"true\" anchor=\"bottom\" id=\"Terminal\" order=\"8\" sideWeight=\"0.49894625\" visible=\"true\" weight=\"0.32936078\" />\r\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"9\" sideWeight=\"0.50105375\" side_tool=\"true\" weight=\"0.32936078\" />\r\n      <window_info anchor=\"bottom\" id=\"Python Console\" order=\"10\" />\r\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\r\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\r\n    </layout>\r\n    <layout-to-restore>\r\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.24973656\" />\r\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\r\n      <window_info id=\"Favorites\" order=\"2\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\r\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\r\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" />\r\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\r\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\r\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"7\" />\r\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"8\" sideWeight=\"0.49894625\" visible=\"true\" weight=\"0.32936078\" />\r\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"9\" sideWeight=\"0.50105375\" side_tool=\"true\" weight=\"0.32936078\" />\r\n      <window_info anchor=\"bottom\" id=\"Python Console\" order=\"10\" />\r\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\r\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\r\n    </layout-to-restore>\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"RECENTLY_FILTERED_USER_GROUPS\">\r\n                <collection />\r\n              </option>\r\n              <option name=\"RECENTLY_FILTERED_BRANCH_GROUPS\">\r\n                <collection />\r\n              </option>\r\n              <option name=\"COLUMN_ORDER\">\r\n                <list>\r\n                  <option value=\"0\" />\r\n                  <option value=\"1\" />\r\n                  <option value=\"2\" />\r\n                  <option value=\"3\" />\r\n                </list>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"editorHistoryManager\">\r\n    <entry file=\"file://$PROJECT_DIR$/README.md\">\r\n      <provider selected=\"true\" editor-type-id=\"split-provider[text-editor;markdown-preview-editor]\">\r\n        <state split_layout=\"SPLIT\">\r\n          <first_editor />\r\n          <second_editor />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/requirments.txt\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/datapipeline.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"136\">\r\n          <caret line=\"8\" column=\"36\" selection-start-line=\"8\" selection-start-column=\"36\" selection-end-line=\"8\" selection-end-column=\"36\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/dataengineeringpipeline.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"306\">\r\n          <caret line=\"18\" column=\"41\" selection-start-line=\"18\" selection-start-column=\"41\" selection-end-line=\"18\" selection-end-column=\"41\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/splittingdataconfig.yml\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/dataengineeringconfig.yml\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/DataPlots/confusionmatrix.png\" />\r\n    <entry file=\"file://$PROJECT_DIR$/steps/evaluateneuralnetwork.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state>\r\n          <folding>\r\n            <element signature=\"e#0#22#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/dataloaderconfig.yml\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/DataPlots/distribution.png\">\r\n      <provider selected=\"true\" editor-type-id=\"images\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/DataPlots/model.png\">\r\n      <provider selected=\"true\" editor-type-id=\"images\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/masterpipeline.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"204\">\r\n          <caret line=\"12\" column=\"48\" selection-start-line=\"12\" selection-start-column=\"48\" selection-end-line=\"12\" selection-end-column=\"48\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/splittinddatapipeline.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"374\">\r\n          <caret line=\"22\" selection-start-line=\"22\" selection-end-line=\"22\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/steps/trainandpredictnn.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"518\">\r\n          <caret line=\"55\" column=\"4\" selection-start-line=\"55\" selection-start-column=\"4\" selection-end-line=\"55\" selection-end-column=\"4\" />\r\n          <folding>\r\n            <element signature=\"e#0#19#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/DataPlots/randomforest_confusionmatrix.png\">\r\n      <provider selected=\"true\" editor-type-id=\"images\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/DataPlots/neuralnetwork_confusionmatrix.png\">\r\n      <provider selected=\"true\" editor-type-id=\"images\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/trainpipelinerandomforest.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"68\">\r\n          <caret line=\"7\" column=\"4\" selection-start-line=\"7\" selection-start-column=\"4\" selection-end-line=\"7\" selection-end-column=\"4\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/extratreeconfig.yml\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"68\">\r\n          <caret line=\"4\" column=\"19\" selection-start-line=\"4\" selection-start-column=\"19\" selection-end-line=\"4\" selection-end-column=\"19\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/randomforestconfig.yml\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"51\">\r\n          <caret line=\"3\" column=\"18\" lean-forward=\"true\" selection-start-line=\"3\" selection-start-column=\"18\" selection-end-line=\"3\" selection-end-column=\"18\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/randomforest_modelevaluationpipeline.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"255\">\r\n          <caret line=\"15\" column=\"109\" lean-forward=\"true\" selection-start-line=\"7\" selection-start-column=\"4\" selection-end-line=\"15\" selection-end-column=\"109\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/steps/trainandpredictrf.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"289\">\r\n          <caret line=\"17\" column=\"49\" lean-forward=\"true\" selection-start-line=\"17\" selection-start-column=\"49\" selection-end-line=\"17\" selection-end-column=\"49\" />\r\n          <folding>\r\n            <element signature=\"e#0#19#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/neuralnetwork_modelevaluationpipeline.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"221\">\r\n          <caret line=\"13\" column=\"91\" selection-start-line=\"13\" selection-start-column=\"91\" selection-end-line=\"13\" selection-end-column=\"91\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/DataPlots/extratree_confusionmatrix.png\">\r\n      <provider selected=\"true\" editor-type-id=\"images\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/steps/evaluaterandomforest.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"-126\">\r\n          <caret line=\"3\" column=\"31\" lean-forward=\"true\" selection-start-line=\"3\" selection-start-column=\"31\" selection-end-line=\"3\" selection-end-column=\"31\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/trainpipelineneuralnetwork.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"340\">\r\n          <caret line=\"20\" column=\"50\" lean-forward=\"true\" selection-start-line=\"20\" selection-start-column=\"50\" selection-end-line=\"20\" selection-end-column=\"50\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/trainpipelineextratree.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"170\">\r\n          <caret line=\"12\" column=\"47\" selection-start-line=\"12\" selection-start-column=\"47\" selection-end-line=\"12\" selection-end-column=\"47\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/steps/evaluateextratree.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"391\">\r\n          <caret line=\"29\" selection-start-line=\"29\" selection-end-line=\"29\" />\r\n          <folding>\r\n            <element signature=\"e#0#22#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/steps/trainandpredictextratree.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"85\">\r\n          <caret line=\"8\" column=\"61\" selection-start-line=\"8\" selection-start-column=\"61\" selection-end-line=\"8\" selection-end-column=\"61\" />\r\n          <folding>\r\n            <element signature=\"e#0#19#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/extra_tree_modelevaluationpipeline.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"68\">\r\n          <caret line=\"6\" column=\"40\" selection-start-line=\"6\" selection-start-column=\"40\" selection-end-line=\"6\" selection-end-column=\"40\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/steps/splittingdata.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"136\">\r\n          <caret line=\"8\" column=\"37\" lean-forward=\"true\" selection-start-line=\"8\" selection-start-column=\"37\" selection-end-line=\"8\" selection-end-column=\"37\" />\r\n          <folding>\r\n            <element signature=\"e#0#19#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"306\">\r\n          <caret line=\"18\" column=\"73\" selection-start-line=\"18\" selection-start-column=\"73\" selection-end-line=\"18\" selection-end-column=\"73\" />\r\n          <folding>\r\n            <element signature=\"e#0#26#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/run.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"442\">\r\n          <caret line=\"34\" selection-start-line=\"34\" selection-end-line=\"34\" />\r\n          <folding>\r\n            <element signature=\"e#0#110#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/steps/ensemblemodels.py\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"544\">\r\n          <caret line=\"32\" column=\"31\" lean-forward=\"true\" selection-start-line=\"32\" selection-start-column=\"31\" selection-end-line=\"32\" selection-end-column=\"31\" />\r\n          <folding>\r\n            <element signature=\"e#0#22#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 18871dd296817492bdfbf2cc17ae282175308696)
++++ b/.idea/workspace.xml	(date 1732702100307)
+@@ -1,118 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="6676a4b9-7cd3-40cf-9e78-f5ac77ef5d5b" name="Default Changelist" comment="">
+-      <change beforePath="$PROJECT_DIR$/DataPlots/extratree_confusionmatrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/DataPlots/extratree_confusionmatrix.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/DataPlots/neuralnetwork_confusionmatrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/DataPlots/neuralnetwork_confusionmatrix.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/steps/ensemblemodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/ensemblemodels.py" afterDir="false" />
++    <list default="true" id="6676a4b9-7cd3-40cf-9e78-f5ac77ef5d5b" name="Default Changelist" comment="test commit">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="FileEditorManager">
+-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/run.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="442">
+-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+-              <folding>
+-                <element signature="e#0#110#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/steps/ensemblemodels.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="544">
+-              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+-              <folding>
+-                <element signature="e#0#22#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/pipelines/ensemblemodelpipeline.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="306">
+-              <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+-              <folding>
+-                <element signature="e#0#26#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/steps/splittingdata.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="136">
+-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+-              <folding>
+-                <element signature="e#0#19#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/pipelines/trainpipelineextratree.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="170">
+-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+-              <folding>
+-                <element signature="e#0#26#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/steps/evaluateextratree.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="391">
+-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+-              <folding>
+-                <element signature="e#0#22#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/steps/trainandpredictextratree.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="85">
+-              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+-              <folding>
+-                <element signature="e#0#19#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/pipelines/extra_tree_modelevaluationpipeline.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="68">
+-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+-              <folding>
+-                <element signature="e#0#26#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-    </leaf>
+-  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+@@ -133,11 +29,15 @@
+       </list>
+     </option>
+   </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
+   <component name="ProjectFrameBounds" extendedState="6">
+     <option name="x" value="955" />
+     <option name="width" value="974" />
+     <option name="height" value="1047" />
+   </component>
++  <component name="ProjectId" id="2pQb5C4qNk9UFudT9wXsd1Ag6DL" />
+   <component name="ProjectView">
+     <navigator proportions="" version="1">
+       <foldersAlwaysOnTop value="true" />
+@@ -177,23 +77,16 @@
+       </pane>
+     </panes>
+   </component>
+-  <component name="PropertiesComponent">
+-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+-  </component>
+-  <component name="RunDashboard">
+-    <option name="ruleStates">
+-      <list>
+-        <RuleState>
+-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+-        </RuleState>
+-        <RuleState>
+-          <option name="name" value="StatusDashboardGroupingRule" />
+-        </RuleState>
+-      </list>
+-    </option>
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
+   </component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
++  }
++}</component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="SvnConfiguration">
+     <configuration />
+   </component>
+@@ -204,7 +97,16 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1731267119011</updated>
++      <workItem from="1732701066381" duration="1023000" />
++    </task>
++    <task id="LOCAL-00001" summary="test commit">
++      <created>1732701995887</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1732701995887</updated>
+     </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="ToolWindowManager">
+@@ -248,31 +150,23 @@
+       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+     </layout-to-restore>
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State>
+-              <option name="RECENTLY_FILTERED_USER_GROUPS">
+-                <collection />
+-              </option>
+-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+-                <collection />
+-              </option>
+-              <option name="COLUMN_ORDER">
+-                <list>
+-                  <option value="0" />
+-                  <option value="1" />
+-                  <option value="2" />
+-                  <option value="3" />
+-                </list>
+-              </option>
+-            </State>
++            <State />
+           </value>
+         </entry>
+       </map>
+     </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="test commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+   </component>
+   <component name="editorHistoryManager">
+     <entry file="file://$PROJECT_DIR$/README.md">

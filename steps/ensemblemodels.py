@@ -11,10 +11,10 @@ import pandas as pd
 
 @step(enable_cache=False)
 def ensemble_models(model1: Sequential, model2: RandomForestClassifier, model3: ExtraTreesClassifier,
-                    X_test: pd.DataFrame, y_test: pd.Series, X: pd.DataFrame, y: pd.Series):
+                    X_train: pd.DataFrame, y_train: pd.DataFrame, X_test: pd.DataFrame, y_test: pd.Series, X: pd.DataFrame, y: pd.Series):
 
     model1_wrapped = KerasClassifier(model=model1)
-    model1_wrapped.fit(X_test, y_test)
+    model1_wrapped.fit(X_train, y_train)
     #model2.fit(X_test, y_test)
     #model3.fit(X_test, y_test)
 
@@ -27,10 +27,10 @@ def ensemble_models(model1: Sequential, model2: RandomForestClassifier, model3: 
         voting='hard'
     )
 
-    ensemble_model.fit(X_test, y_test)
-    y_pred = ensemble_model.predict(X)
+    ensemble_model.fit(X_train, y_train)
+    y_pred = ensemble_model.predict(X_test)
 
-    accuracy = accuracy_score(y, y_pred)
+    accuracy = accuracy_score(y_test, y_pred)
     #print(f"Dokładność zestawu klasyfikatorów: {accuracy}")
 
     #correct_predictions = np.sum(y == y_pred)

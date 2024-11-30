@@ -31,18 +31,6 @@ def ensemble_models(model1: Sequential, model2: RandomForestClassifier, model3: 
     y_pred = ensemble_model.predict(X_test)
 
     accuracy = accuracy_score(y_test, y_pred)
-    #print(f"Dokładność zestawu klasyfikatorów: {accuracy}")
-
-    #correct_predictions = np.sum(y == y_pred)
-    #total_predictions = len(y)
-    #accuracy = correct_predictions / total_predictions
 
     print(f"Accuracy: {accuracy}")
-
-    #print(f"y_test: {y_test[:10]}")
-    #print(f"y_pred: {y_pred[:10]}")
-
-    #print("Pierwsze 10 predykcji (y_pred):", y_pred[:10])
-    #print("Pierwsze 10 wartości rzeczywiste (y_test):", y_test.head(10).tolist())
-
 

@@ -15,8 +15,6 @@ def ensemble_models(model1: Sequential, model2: RandomForestClassifier, model3: 
 
     model1_wrapped = KerasClassifier(model=model1)
     model1_wrapped.fit(X_train, y_train)
-    #model2.fit(X_test, y_test)
-    #model3.fit(X_test, y_test)
 
     ensemble_model = VotingClassifier(
         estimators=[

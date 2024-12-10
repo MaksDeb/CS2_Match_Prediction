@@ -14,7 +14,8 @@ def train_neuralnetwork_pipeline():
     y_test = client.get_artifact_version(name_id_or_prefix='splittingdatapipeline::traintestsplit::output_3')
 
     #model = trainandpredictnn.compileneuralnetwork(X_train)
-    model = trainandpredictnn.compilecomplexneuralnetwork(X_train)
+    #model = trainandpredictnn.compilecomplexneuralnetwork(X_train)
+    model = trainandpredictnn.compilesimpleneuralnetwork(X_train)
     trainandpredictnn.plotmodel(model)
     trainedmodel = trainandpredictnn.trainmodel(model=model, X_train=X_train, y_train=y_train,
                                                 X_test=X_test, y_test=y_test)

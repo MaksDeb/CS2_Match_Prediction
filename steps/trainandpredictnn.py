@@ -1,4 +1,6 @@
 import pandas as pd
+from keras.src.callbacks import ReduceLROnPlateau, EarlyStopping
+from keras.src.optimizers import Adagrad, Adam
 from zenml import step
 import tensorflow as tf
 from keras._tf_keras.keras.utils import load_img
@@ -36,14 +38,32 @@ def compilecomplexneuralnetwork(X_train: pd.DataFrame) -> Sequential:
         Dense(64, activation='relu', kernel_regularizer=l2(0.001)),
         BatchNormalization(),
         Dropout(0.3),
-        Dense(32, activation='relu', kernel_regularizer=l2(0.001)),
-        BatchNormalization(),
-        Dropout(0.2),
         Dense(16, activation='relu', kernel_regularizer=l2(0.001)),
         Dense(1, activation='sigmoid')
     ])
 
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+    return model
+
+@step(enable_cache=False)
+def compilesimpleneuralnetwork(X_train: pd.DataFrame) -> Sequential:
+    model = Sequential([
+        Dense(32, activation='relu', kernel_regularizer=l2(0.001), input_shape=(X_train.shape[1],)),
+        BatchNormalization(),
+        Dropout(0.4),
+        Dense(64, activation='relu', kernel_regularizer=l2(0.001)),
+        BatchNormalization(),
+        Dropout(0.3),
+        Dense(32, activation='relu', kernel_regularizer=l2(0.001)),
+        BatchNormalization(),
+        Dropout(0.2),
+        Dense(16, activation='relu', kernel_regularizer=l2(0.001)),
+        BatchNormalization(),
+        Dense(8, activation='relu', kernel_regularizer=l2(0.001)),
+        Dense(1, activation='sigmoid')
+    ])
+
+    model.compile(optimizer = 'adam', loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
 
@@ -55,12 +75,25 @@ def plotmodel(model: Sequential):
 @step(enable_cache=False)
 def trainmodel(model: Sequential, X_train: pd.DataFrame, y_train: pd.Series,
                X_test: pd.DataFrame, y_test: pd.Series):
+
+    reduce_lr = ReduceLROnPlateau(
+        monitor='val_loss',
+        factor=0.1,
+        patience=10,
+        min_lr=0.0001
+    )
+    early_stopping = EarlyStopping(
+        monitor='val_loss',
+        patience=25,
+        restore_best_weights=True
+    )
+
     history = model.fit(
         X_train, y_train,
         batch_size=16,
-        epochs=100,
+        epochs=130,
         validation_data=(X_test, y_test),
-        #callbacks=[reduce_lr]
+        callbacks=[reduce_lr, early_stopping],
     )
     return model
 

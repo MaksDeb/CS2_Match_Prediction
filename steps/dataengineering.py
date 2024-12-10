@@ -65,11 +65,11 @@ def calculateavgstat(df: pd.DataFrame) -> pd.DataFrame:
 
     for stat_type, columns in team1_stats.items():
         df[f'T1_avg_{stat_type}'] = df[columns].mean(axis=1, skipna=True)
-        df[f'T1_sum_{stat_type}'] = df[columns].sum(axis=1, skipna=True)
+        #df[f'T1_sum_{stat_type}'] = df[columns].sum(axis=1, skipna=True)
 
     for stat_type, columns in team2_stats.items():
         df[f'T2_avg_{stat_type}'] = df[columns].mean(axis=1, skipna=True)
-        df[f'T2_sum_{stat_type}'] = df[columns].sum(axis=1, skipna=True)
+        #df[f'T2_sum_{stat_type}'] = df[columns].sum(axis=1, skipna=True)
 
     df = df.drop(columns=player_stats_columns)
     print(df.head())

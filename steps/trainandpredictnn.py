@@ -8,6 +8,7 @@ from keras._tf_keras.keras.models import Sequential, Model
 from keras._tf_keras.keras.layers import Dense, Conv2D, Dropout, Flatten, MaxPooling2D, Input, BatchNormalization
 from keras._tf_keras.keras.regularizers import l2
 from keras._tf_keras.keras.utils import plot_model
+import time
 
 
 @step(enable_cache=False)
@@ -87,7 +88,7 @@ def trainmodel(model: Sequential, X_train: pd.DataFrame, y_train: pd.Series,
         patience=25,
         restore_best_weights=True
     )
-
+    start = time.time()
     history = model.fit(
         X_train, y_train,
         batch_size=16,
@@ -95,6 +96,8 @@ def trainmodel(model: Sequential, X_train: pd.DataFrame, y_train: pd.Series,
         validation_data=(X_test, y_test),
         callbacks=[reduce_lr, early_stopping],
     )
+    end = time.time()
+    print(f"Neural Network training took {end - start} seconds")
     return model
 
 

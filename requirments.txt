@@ -10,3 +10,4 @@ graphviz == 0.20.3
 plot_model == 0.20
 seaborn == 0.13.2
 scikeras == 0.13.0
+streamlit == 1.41.0

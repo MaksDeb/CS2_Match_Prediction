@@ -2,6 +2,7 @@ from zenml import pipeline
 from zenml.client import Client
 from steps import trainandpredictnn
 import pandas as pd
+import time
 
 
 @pipeline(enable_cache=False)

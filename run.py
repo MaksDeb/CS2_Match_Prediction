@@ -1,6 +1,6 @@
 from pipelines import datapipeline, dataengineeringpipeline, splittinddatapipeline, trainpipelineneuralnetwork
 from pipelines import neuralnetwork_modelevaluationpipeline, trainpipelinerandomforest, randomforest_modelevaluationpipeline
-from pipelines import trainpipelineextratree, extra_tree_modelevaluationpipeline, ensemblemodelpipeline
+from pipelines import trainpipelineextratree, extra_tree_modelevaluationpipeline, ensemblemodelpipeline, createplots_pipeline
 
 # Loading dataset
 dataloader = datapipeline.datapipeline.with_options(
@@ -32,3 +32,6 @@ modelevaluationpipeline_rf_instance = randomforest_modelevaluationpipeline.rando
 
 # Ensembled models
 enesembled_models_instance = ensemblemodelpipeline.ensemblemodel_pipeline()
+
+# manual plots
+plots_instance = createplots_pipeline.createplots_pipeline()

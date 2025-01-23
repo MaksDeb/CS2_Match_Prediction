@@ -21,5 +21,5 @@ def getdistributionplot(df: pd.DataFrame):
     plt.ylabel('Frequency')
     plt.title('Distribution of team1_win column')
     plt.savefig('DataPlots/distribution.png')
-    plt.show()
+    #plt.show()
     return None

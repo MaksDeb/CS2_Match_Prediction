@@ -11,8 +11,8 @@ import time
 
 @step(enable_cache=False)
 def trainrf_withcv(X: pd.DataFrame, y: pd.Series, random_state: int,
-                   n_splits: int) -> Tuple[RandomForestClassifier, np.ndarray]:
-    clf = RandomForestClassifier(random_state=random_state)
+                   n_splits: int, criterion: str) -> Tuple[RandomForestClassifier, np.ndarray]:
+    clf = RandomForestClassifier(random_state=random_state, criterion=criterion)
     start = time.time()
     k_folds = KFold(n_splits=n_splits)
 

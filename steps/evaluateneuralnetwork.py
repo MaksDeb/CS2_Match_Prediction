@@ -33,4 +33,4 @@ def evaluate_neuralnetwork(model: Sequential, X_test: pd.DataFrame, y_test: pd.S
     plt.ylabel('True Labels')
     plt.title('Neural Network Confusion Matrix')
     plt.savefig('DataPlots/neuralnetwork_confusionmatrix')
-    plt.show()
+    #plt.show()

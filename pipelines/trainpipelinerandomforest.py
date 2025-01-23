@@ -5,7 +5,7 @@ from steps import evaluaterandomforest
 
 
 @pipeline(enable_cache=False)
-def train_randomforest_pipeline(random_state: int, n_splits: int):
+def train_randomforest_pipeline(random_state: int, n_splits: int, criterion:str):
     client = Client()
 
     X = client.get_artifact_version(name_id_or_prefix='splittingdatapipeline::splitdata::output_0')
@@ -16,4 +16,5 @@ def train_randomforest_pipeline(random_state: int, n_splits: int):
     y_train = client.get_artifact_version(name_id_or_prefix='splittingdatapipeline::traintestsplit::output_2')
     y_test = client.get_artifact_version(name_id_or_prefix='splittingdatapipeline::traintestsplit::output_3')
 
-    rf_model, cv_scores = trainandpredictrf.trainrf_withcv(X=X, y=y, random_state=random_state, n_splits=n_splits)
+    rf_model, cv_scores = trainandpredictrf.trainrf_withcv(X=X, y=y, random_state=random_state, n_splits=n_splits,
+                                                           criterion=criterion)

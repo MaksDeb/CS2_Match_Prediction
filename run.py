@@ -24,13 +24,13 @@ modelevaluationpipeline_et_instace = extra_tree_modelevaluationpipeline.extratre
 trainandpredictpipeline_nn_instace = trainpipelineneuralnetwork.train_neuralnetwork_pipeline()
 modelevaluationpipeline_nn_instance = neuralnetwork_modelevaluationpipeline.neuralnetwork_modelevaluationpipeline()
 
-# Training and evaluation - Random Forest
+# # Training and evaluation - Random Forest
 trainandpredictpipeline_rf_instace = trainpipelinerandomforest.train_randomforest_pipeline.with_options(
     config_path='randomforestconfig.yml'
 )()
 modelevaluationpipeline_rf_instance = randomforest_modelevaluationpipeline.randomforest_modelevaluationpipeline()
 
-# Ensembled models
+# # Ensembled models
 enesembled_models_instance = ensemblemodelpipeline.ensemblemodel_pipeline()
 
 # manual plots

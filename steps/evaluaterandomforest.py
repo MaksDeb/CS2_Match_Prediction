@@ -34,5 +34,5 @@ def evaluate_randomoforest_withcv(clf: RandomForestClassifier, cv_scores: np.nda
     plt.ylabel('True Labels')
     plt.title('Random Forest Confusion Matrix')
     plt.savefig('DataPlots/randomforest_confusionmatrix')
-    plt.show()
+    #plt.show()
 

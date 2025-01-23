@@ -26,4 +26,4 @@ def evaluate_extra_tree(clf: ExtraTreesClassifier, X_test: pd.DataFrame, y_test:
     plt.ylabel('True Labels')
     plt.title('Extra Tree Confusion Matrix')
     plt.savefig('DataPlots/extratree_confusionmatrix')
-    plt.show()
+    #plt.show()

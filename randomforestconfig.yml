@@ -3,6 +3,7 @@ enable_cache: False
 parameters:
   random_state: 42
   n_splits: 5
+  criterion: gini
 
 steps:
   trainrf_withcv:

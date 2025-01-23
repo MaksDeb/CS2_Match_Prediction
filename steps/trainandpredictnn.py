@@ -20,8 +20,16 @@ def compileneuralnetwork(X_train: pd.DataFrame) -> Sequential:
         Dense(64, activation='relu'),
         BatchNormalization(),
         Dropout(0.3),
+        Dense(128, activation='relu'),
+        BatchNormalization(),
+        Dense(64, activation='relu'),
+        BatchNormalization(),
+        Dropout(0.3),
         Dense(32, activation='relu'),
         Dropout(0.2),
+        Dense(16, activation='relu'),
+        Dropout(0.2),
+        Dense(32, activation='relu'),
         Dense(16, activation='relu'),
         Dense(1, activation='sigmoid')
     ])
